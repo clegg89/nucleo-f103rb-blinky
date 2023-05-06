@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Local ARM toolchain",
+		"preferredGenerator": {
+			"name": "Unix Makefiles"
+		},
+		"toolchainFile": "/home/clegg/Devel/nucleo-f103rb-blinky/arm-none-eabi-gcc.cmake"
+	}
+]
