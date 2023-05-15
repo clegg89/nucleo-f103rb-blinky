@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd",
+			"cwd": "${workspaceRoot}",
+			"executable": "./build/nucleo-f103rb-blinky.out",
+			"name": "Debug",
+			"device": "STM32F103RB",
+			"configFiles": [
+				"board/st_nucleo_f103rb.cfg"
+			],
+			"runToEntryPoint": "main"
+		}
+	]	
+}
